@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tenor+Sans&display=swap');
+
+.logo_logo_oNas{
+    width: 100%;
+}
+
+.logo_oNas{
+    background-image: url('../../../images/fons/lays.png');
+    background-size: cover;
+    padding: 460px 0px 100px 0px;
+}
+.abzac_oNas{
+    margin: 10px;
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.spisok_card1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 380px;
+    height: 130px;
+    margin: 20px 0px 10px 0px;
+    font-size: 12px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+}
+
+.img{
+    width: 10px;
+    height: 10px;
+}
+
+.article1{
+    background-color: lightblue;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.textred{
+    margin-top: 35px;
+}
+
+.bezoNas{
+    margin-bottom: 0px;
+}
+
+.name_abzac{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: white;
+}
+
+.name_abzac1{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: white;
+    margin-left: 450px;
+    font-size: 30px;
+}
+
+@media (max-width:480px){
+    .name_abzac1{
+        font-family: 'Arial Black', Gadget, sans-serif;
+        color: white;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .card1{
+        width:280px;
+        height: 120px;
+        margin: 10px 10px 10px 10px;
+        font-size: 8px;
+        font-family: 'Arial Black', Gadget, sans-serif;
+        text-align: center;
+        background: white;
+        border-radius: 20px;
+    }
+    .logo_oNas{
+        background-image: url("../../../images/fons/lays.png");
+        background-size: cover;
+        padding: 40px 0;
+    }
+    .abzac_oNas{
+        width: 80%;
+        margin-left: 10%;
+        padding: 0px 10px;
+    }
+
+    .main{
+        margin: 0;
+    }
+    .logo_logo_oNas{
+        font-size: 40px;
+        padding:0px;
+    }
+}
